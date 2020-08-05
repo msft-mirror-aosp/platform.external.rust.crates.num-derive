@@ -1,0 +1,17 @@
+name: "num-derive"
+description:
+    "Numeric syntax extensions"
+
+third_party {
+  url {
+    type: HOMEPAGE
+    value: "https://crates.io/crates/num-derive"
+  }
+  url {
+    type: GIT
+    value: "https://github.com/rust-num/num-derive"
+  }
+  version: "0.3.0"
+  last_upgrade_date { year: 2020 month: 7 day: 20 }
+  license_type: NOTICE
+}
