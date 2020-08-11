@@ -1,7 +1,5 @@
 name: "num-derive"
-description:
-    "Numeric syntax extensions"
-
+description: "Numeric syntax extensions"
 third_party {
   url {
     type: HOMEPAGE
@@ -11,7 +9,11 @@ third_party {
     type: GIT
     value: "https://github.com/rust-num/num-derive"
   }
-  version: "0.3.0"
-  last_upgrade_date { year: 2020 month: 7 day: 20 }
+  version: "0.3.1"
   license_type: NOTICE
+  last_upgrade_date {
+    year: 2020
+    month: 8
+    day: 5
+  }
 }
