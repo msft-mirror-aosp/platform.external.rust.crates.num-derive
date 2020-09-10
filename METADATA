@@ -9,11 +9,11 @@ third_party {
     type: ARCHIVE
     value: "https://static.crates.io/crates/num-derive/num-derive-0.3.1.crate"
   }
-  version: "0.3.1"
+  version: "0.3.2"
   license_type: NOTICE
   last_upgrade_date {
     year: 2020
     month: 8
-    day: 5
+    day: 24
   }
 }
