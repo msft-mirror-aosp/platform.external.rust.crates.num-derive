@@ -7,7 +7,7 @@ third_party {
   }
   url {
     type: ARCHIVE
-    value: "https://static.crates.io/crates/num-derive/num-derive-0.3.1.crate"
+    value: "https://static.crates.io/crates/num-derive/num-derive-0.3.2.crate"
   }
   version: "0.3.2"
   license_type: NOTICE
