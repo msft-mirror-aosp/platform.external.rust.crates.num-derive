@@ -10,8 +10,8 @@ MODULE_RUST_CRATE_TYPES := proc-macro
 MODULE_SRCS := $(LOCAL_DIR)/src/lib.rs
 MODULE_RUST_EDITION := 2018
 MODULE_LIBRARY_DEPS := \
-	external/rust/crates/proc-macro2 \
-	external/rust/crates/quote \
-	external/rust/crates/syn
+	$(call FIND_CRATE,proc-macro2) \
+	$(call FIND_CRATE,quote) \
+	$(call FIND_CRATE,syn)
 
 include make/library.mk
