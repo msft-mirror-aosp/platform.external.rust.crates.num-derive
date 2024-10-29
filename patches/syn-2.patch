@@ -101,6 +101,19 @@ index 0000000..0db3b6f
 +    VarA = get_an_isize!(),
 +    VarB = 2,
 +}
+diff --git b/Cargo.toml a/Cargo.toml
+index 90c5d27..d0ccb4b 100644
+--- b/Cargo.toml
++++ a/Cargo.toml
+@@ -44,7 +44,7 @@ version = "1"
+ version = "1"
+
+ [dependencies.syn]
+-version = "1"
++version = "2"
+ [dev-dependencies.num]
+ version = "0.3"
+
 -- 
 2.40.0.348.gf938b09366-goog
 
